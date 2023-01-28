@@ -1,0 +1,27 @@
+.LongImage__main{
+    height: 364px;
+    width: 100%;
+    background: white;
+    margin: 10px;
+    
+}
+.LongImage__header{
+    font-size: 21px;
+    line-height: 27px;
+    font-weight: bold;
+    padding: 15px;
+}
+.LongImage__body{
+   
+    margin-bottom: 25px;
+    display: flex;
+    
+    padding-left: 15px;
+}
+
+.todaydeal{
+    height: 228px;
+    width: 200px;
+    margin: 30px;
+}
+
