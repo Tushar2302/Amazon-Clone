@@ -86,12 +86,14 @@
 }
 .navbar_text{
     color: white;
+    text-decoration: none;
 }
 
 .navbar__cart{
     color: white;
     margin-top: 15px;
     display: flex;
+    text-decoration: none;
     
 
 
@@ -106,6 +108,7 @@
 .navbar_test_cart{
     margin-top: 10px;
     font-weight: bold;
+    text-decoration: none;
 
 }
 
@@ -114,7 +117,7 @@
     position: relative;
     left: -23px;
     top: -5.3px;
-    
+    text-decoration: none;
     color: #f08804;
 
 }

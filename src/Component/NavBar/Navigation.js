@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link,NavLink } from "react-router-dom";
 import React, { Component } from 'react'
 import { CartContext } from '../CartContext';
 import typewriter, { Typewriter } from "react-simple-typewriter"
@@ -51,13 +51,13 @@ class  NavBar extends Component {
                     <div style={{fontSize:"14px"}}>Returns</div> 
                     <div style={{fontWeight:"bold"}}>& Orders</div>
                     </div>
-                   <Link to="/checkout">
+                   <NavLink to="/checkout" style={{textDecoration:"none"}}>
                 <div className='navbar_text navbar__cart' >
                     <div src='' className='cart__image'/>
                     <div className='cart__item'>{size}</div>
                     <div className='navbar_test_cart'>Cart</div>
                 </div>
-                </Link> 
+                </NavLink> 
                 </div>
                 <div className='navbar__footer'>
                     <div className='navbar__footer_text'>Amazon miniTV</div>

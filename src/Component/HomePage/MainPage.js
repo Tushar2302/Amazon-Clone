@@ -2,9 +2,11 @@ import { Link } from '@mui/material';
 import React, { Component } from 'react'
 import AdvertisementFour from './AdvertisementFour/AdvertisementFour';
 import AdvertisementOne from './AdvertisementOne/AdvertisementOne';
+import Advertthree from '../Advert_three'
 import LongImage from './LongImage/LongImage';
 
 import "./MainPage.css";
+import AdvertisementTwo from '../AdvertisementTwo';
 
 class  MainPage extends Component {
     constructor(props){
@@ -19,8 +21,8 @@ class  MainPage extends Component {
                     
                 <AdvertisementOne />
                 <AdvertisementFour/>
-                <AdvertisementFour/>
-                <AdvertisementOne/>
+                <AdvertisementTwo/>
+                <Advertthree/>
                 <LongImage/>
 
                 <AdvertisementOne />

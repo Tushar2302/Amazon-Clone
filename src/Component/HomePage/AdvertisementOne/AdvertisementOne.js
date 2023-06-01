@@ -8,7 +8,7 @@ function AdvertisementOne(props){
       <div className='AdvertisementOne__header'>
         Up to 30% off | Apple store
       </div>
-    <Link to="/display">
+    <Link to="/display" style={{textDecoration:"none",color:"#1976d2"}}>
 
       <div className='AdvertisementOne__body'>
         <img src="https://ik.imagekit.io/Amazon124/amazon-image/mobiles/71i2XhHU3pL._AC_UL640_FMwebp_QL65_.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1672833128162"  height='260px' width='205 px' />

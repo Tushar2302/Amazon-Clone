@@ -18,7 +18,7 @@ function AdvertisementFour(props){
         <img src="https://ik.imagekit.io/Amazon124/amazon-image/V238940049_IN_PC_BAU_Edit_Creation_Laptops2X._SY608_CB667377204_.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1672833116968"  className='ad_imgeFour' />
         <img src="https://ik.imagekit.io/Amazon124/amazon-image/V238940049_IN_PC_BAU_Edit_Creation_Laptops2X._SY608_CB667377204_.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1672833116968"  className='ad_imgeFour' />
       </div>
-      <Link to="/display">
+      <Link to="/display" style={{textDecoration:"none"}}>
       <div className='AdvertisementOne__footer'>
         See more
       </div>

@@ -22,19 +22,12 @@ class CartContextProvider extends Component {
             },
             saveToLocalCache: ()=>{
                 localStorage.setItem('myCart', JSON.stringify(this.state.item));
-            },
-            decrement: (value) =>{
-                let itemList=this.state.item;
-                itemList.pop(value);
-                this.setState({item: itemList});
-                this.setState({size: this.state.item.length});
-                this.state.saveToLocalCache();
             }
          }
     }
     render() {
         return (
-            <CartContext.Provider value={{ ...this.state,...this.increment, ...this.decrement }} >
+            <CartContext.Provider value={{ ...this.state,...this.increment }} >
                 {this.props.children}
             </CartContext.Provider>
          );
